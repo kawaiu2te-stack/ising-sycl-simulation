@@ -9,7 +9,7 @@ C++による高速な計算コアと、Pythonによる柔軟な制御インタ�
 
       - **Cross-Architecture**: NVIDIA GPU (CUDA) と Intel GPU (Level Zero/OpenCL) の両方で動作。
       - **Multi-spin coding**: ビット演算を活用し、1スレッドで複数のスピンを同時更新。
-      - **MTGP32**: 高速な乱数生成アルゴリズム MTGP32 をSYCL向けに移植・最適化。
+      - **MTGP32**: GPU向けの高速な乱数生成アルゴリズム MTGP32 をSYCL向けに移植・最適化。
 
   - **Flexible Control (Python)**
 
@@ -80,7 +80,7 @@ from IsingSimulator import IsingSimulator
 sim = IsingSimulator(L=32, multi=1)
 
 # 温度を設定
-sim.set_temp(2.269) # Critical temperature
+sim.set_temp(4.51) # Critical temperature
 
 # 乱数でスピンを初期化
 sim.randomize_spins()
