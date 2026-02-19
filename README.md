@@ -46,7 +46,7 @@ make
 
 ## 使用方法 (Usage)
 
-### 1\. 3D可視化デモ (Recommended)
+### 1\. 3D可視化デモ
 
 シミュレーションの様子をリアルタイムで3D描画します。
 
@@ -102,4 +102,4 @@ print(f"Magnetization: {results['m']}")
 
 ## ライセンス (License)
 
-乱数生成部 (`mtgp32dc_params_fast_11213.h` およびアルゴリズム) は、オリジナルのMTGP (Hiroshima University) のライセンスに基づきます。
+乱数生成部 (`mtgp32dc_params_fast_11213.h` およびアルゴリズム) は、オリジナルの[MTGP](https://github.com/MersenneTwister-Lab/MTGP) (Hiroshima University) のライセンスに基づきます。
